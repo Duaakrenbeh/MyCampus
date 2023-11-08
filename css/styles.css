@@ -1,0 +1,154 @@
+/* Resetting default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling for consistent font and background */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+ 
+}
+
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+
+/* Navigation bar styling */
+
+ul {
+  list-style-type: none;
+}
+
+.navbar{
+  background-color: #FEF9E7;
+  height: 60px;
+  
+}
+
+.navbar .logo{
+
+}
+
+.navbar a{
+  color: #254A3E;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar a:hover{
+  color: #E7B44A;
+}
+
+.navbar .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul{
+  display: flex;
+}
+
+.navbar ul li{
+  margin-left: 20px;
+}
+
+
+
+
+
+/* Main content styling with padding */
+main {
+  
+}
+
+/* Header styling with spacing and background color */
+.header {
+  background-image: url("/img/campus1.jpg");
+  color: #fff;
+  height: 100vh; /* This makes the div the height of the viewport */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; /* This will center your image in the div */
+}
+  
+
+
+
+.header .container{
+  display: flex;
+  align-items: center;
+  justify-self: space-between;
+}
+
+.boxes .container{
+  display: flex;
+  align-items: center;
+  justify-self: space-between;
+}
+
+/* Image styling for responsiveness */
+
+
+/* Section styling for spacing */
+section {
+  
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: white;
+}
+/*kantine styling*/ 
+
+/*kantine med flex*/
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.box{
+  text-align: center;
+  padding: 20px;
+  border: 1px;  
+
+
+}
+.image {
+  width: 150px;
+  height: 150px;
+  
+}
+p{
+  margin: 10px;
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
